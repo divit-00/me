@@ -1,0 +1,30 @@
+
+#valentinesButton {
+  display: block;
+  position: absolute;
+
+  /* 👇 move button lower */
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 10;
+
+  background-color: #2d2dff;
+  border: 2px solid #2d2dff;
+  color: #fff;
+
+  height: 50px;
+  padding: 0 25px;
+  font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#valentinesButton:hover {
+  background-color: #1f1faa;
+  color: #eee;
+}
